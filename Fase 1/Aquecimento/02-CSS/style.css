@@ -3,18 +3,55 @@
     margin: 0;
     box-sizing: border-box;
     color: rgb(1, 20, 146);
+    font-family: 'Oswald', sans-serif;
 }
 
 ul{
     list-style: none;
+    font-size: 30px;
+    font-style: italic;
+    
 }
 
 a{
     text-decoration: none;
+    font-weight: 700;
 }
 
 body{
     /* background: url(./img/background.jpg) no-repeat center center fixed;
     background-size: cover; */
     background: linear-gradient(90deg, #bdc3c7, #2c3e50);
+}
+
+.container{
+    text-align: center;
+}
+
+.container .texto h1{
+    font-size: 50px;
+}   
+
+.container .texto h5{
+    font-size: 35px;
+}   
+
+#about p{
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.form{
+    font-size: 18px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form input{
+    width: 35%;
+}
+
+.form button{
+    width: 10%;
 }
