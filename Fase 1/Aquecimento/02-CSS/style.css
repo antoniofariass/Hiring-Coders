@@ -28,6 +28,12 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* border-bottom: 2px solid black; */
+    box-shadow:1px 1px 10px ;
+}
+
+header img{
+    box-shadow:1px 1px 10px ;
 }
 
 header ul{
@@ -68,6 +74,7 @@ header ul li{
     font-size: 18px;
     width: 40%;
     margin: 0 auto;
+    border: thick double black;
 }
 
 .form input{
@@ -98,3 +105,4 @@ header ul li{
 .flex .python img{
     width: 200px;
 }
+
