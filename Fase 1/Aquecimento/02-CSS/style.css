@@ -30,6 +30,7 @@ header{
     align-items: center;
     /* border-bottom: 2px solid black; */
     box-shadow:1px 1px 10px ;
+    margin-bottom: 20px;
 }
 
 header img{
@@ -110,6 +111,7 @@ header ul li a:hover{
     font-size: 18px;
     width: 40%;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
 .form input{
@@ -160,4 +162,3 @@ header ul li a:hover{
 .flex .python img{
     width: 200px;
 }
-
