@@ -36,11 +36,11 @@
                 <h5>Software Engineer</h5>
             </div>
             
-            <div id="arrow">
-                <i class="fa-solid fa-circle-down"></i>
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-circle-down"></i>
             </div>
 
-            <div id="about">
+            <div style="display: none;" id="about">
                 <p>
                    Olá me chamo Antônio, curso Engenharia de Computaçao em Campina Grande e pretendo 
                    ser um Software engineer futuramente!
@@ -72,5 +72,15 @@
             </div>
         </section>
     </main>
+
+    <script>
+        function displayAbout(){
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate')
+            var display = document.getElementById('about');
+            display.classList.toggle('active')
+        }
+    </script>
+
 </body>
 </html>
