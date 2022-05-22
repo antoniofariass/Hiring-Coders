@@ -1,6 +1,6 @@
 # MVP 
 
-Mínimo produto viávle, construa algo que seu cliente teste desde o começo.
+Mínimo produto viável, construa algo que seu cliente teste desde o começo.
 
 -Entregas continuas
 -Entregas com valor 
