@@ -4,4 +4,4 @@ git init - initiling git in folder
 
 git add - prepare the code to commit 
 
-git commit -m " - com
+git commit -m " " - commit the file 
